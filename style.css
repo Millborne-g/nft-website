@@ -75,12 +75,19 @@ header{
 @media screen and (max-width:991px){
     .navbar-collapse .navbar-nav{
         background-color: #ffff;
-        border: 0.5px solid #000000;
         padding: 3%;
     }
     
     .navbar-collapse .navbar-nav a{
+        width: 100%;
+        text-align: center;
         color: #000000 !important;
+    }
+
+    .navbar-collapse .navbar-nav a:hover{
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0;
     }
     
     .navbar-collapse .navbar-nav .select-wallet-btn{
