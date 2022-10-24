@@ -79,6 +79,7 @@ header{
     }
     
     .navbar-collapse .navbar-nav a{
+        margin: 0;
         width: 100%;
         text-align: center;
         color: #000000 !important;
